@@ -17,7 +17,6 @@ import { ShippingComponent } from './shipping/shipping.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    HttpClientModule,
     ReactiveFormsModule,
     RouterModule.forRoot([{ path: '', component: ProductListComponent },
     { path: 'products/:productId', component: ProductDetailsComponent },
@@ -32,6 +31,7 @@ import { ShippingComponent } from './shipping/shipping.component';
     ProductAlertsComponent,
     ProductDetailsComponent,
     CartComponent,
+    ShippingComponent,
   ],
   bootstrap: [AppComponent],
 })
